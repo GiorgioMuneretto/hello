@@ -1,0 +1,125 @@
+BLASTP 2.5.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input:
+../Ruph_proteome/RPHILIPPINARUM_BOL.round3.maker.agat-predicted-
+prot.fasta).
+           54,936 sequences; 23,194,393 total letters
+
+
+
+Query= PA5_83235
+
+Length=98
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  RPHIM00000022003 gene=RPHIG00000028431 name=pnpt1_2 seq_id=tig0...  148     4e-47
+  RPHIM00000023201 gene=RPHIG00000029982 name=tppp3_6 seq_id=tig0...  27.7    1.6  
+  RPHIM00000024193 gene=RPHIG00000031243 name=tppp3_4 seq_id=tig0...  27.7    1.7  
+  RPHIM00000009471 gene=RPHIG00000012225 seq_id=tig00005730 type=cds  26.2    6.8  
+  RPHIM00000005130 gene=RPHIG00000006565 name=adgrg4 seq_id=tig00...  26.2    6.8  
+
+
+> RPHIM00000022003 gene=RPHIG00000028431 name=pnpt1_2 seq_id=tig00013958 
+type=cds
+Length=162
+
+ Score = 148 bits (374),  Expect = 4e-47, Method: Compositional matrix adjust.
+ Identities = 71/98 (72%), Positives = 87/98 (89%), Gaps = 0/98 (0%)
+
+Query  1    FMPLVVDYRQKAAAAGRIPTNYLRREIGTSDKEILTSRIIDRSIRPLFPAGYFYDTQVLC  60
+            F+PL VDYRQK AAAGRIPTN+LRRE+G SDKEILTSR+IDRS+R  FP+ YF++TQ+ C
+Sbjct  41   FLPLTVDYRQKYAAAGRIPTNHLRRELGPSDKEILTSRVIDRSLRTRFPSDYFFETQITC  100
+
+Query  61   NLLAVDGVNEPDVLAINGASVALSLSDIPWNGPVGAVR  98
+            N+L++DGVN+PD+ +IN AS AL +SDIPWNGPVGAVR
+Sbjct  101  NMLSIDGVNDPDIASINAASAALCISDIPWNGPVGAVR  138
+
+
+> RPHIM00000023201 gene=RPHIG00000029982 name=tppp3_6 seq_id=tig00014897 
+type=cds
+Length=185
+
+ Score = 27.7 bits (60),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 20/35 (57%), Gaps = 1/35 (3%)
+
+Query  28  GTSDKEILTSRIIDRSIRPLFPAGY-FYDTQVLCN  61
+           G+ DK ++TS+   + +   F  GY  YD + +C+
+Sbjct  20  GSKDKTMMTSKASGKMVADCFDKGYKKYDVKSICD  54
+
+
+> RPHIM00000024193 gene=RPHIG00000031243 name=tppp3_4 seq_id=tig00015703 
+type=cds
+Length=187
+
+ Score = 27.7 bits (60),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 20/35 (57%), Gaps = 1/35 (3%)
+
+Query  28  GTSDKEILTSRIIDRSIRPLFPAGY-FYDTQVLCN  61
+           G+ DK ++TS+   + +   F  GY  YD + +C+
+Sbjct  20  GSKDKTMMTSKASGKMVADCFDKGYKKYDVKSICD  54
+
+
+> RPHIM00000009471 gene=RPHIG00000012225 seq_id=tig00005730 type=cds
+Length=238
+
+ Score = 26.2 bits (56),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 26/51 (51%), Gaps = 2/51 (4%)
+
+Query  5   VVDYR--QKAAAAGRIPTNYLRREIGTSDKEILTSRIIDRSIRPLFPAGYF  53
+           VV+ R  Q+ A  G     Y++R+IGT+ K+      IDR++     A  F
+Sbjct  30  VVEARDCQRLATCGSHEICYVQRKIGTNLKQYYVLGCIDRNVCLGQQASMF  80
+
+
+> RPHIM00000005130 gene=RPHIG00000006565 name=adgrg4 seq_id=tig00003074 
+type=cds
+Length=966
+
+ Score = 26.2 bits (56),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 13/27 (48%), Positives = 16/27 (59%), Gaps = 4/27 (15%)
+
+Query  42   RSIRPLFPAGYFY----DTQVLCNLLA  64
+            RSIRPL   G++Y    D   LCN L+
+Sbjct  391  RSIRPLDFRGFYYSEEKDANTLCNPLS  417
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.140    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 583762350
+
+
+  Database: User specified sequence set (Input:
+../Ruph_proteome/RPHILIPPINARUM_BOL.round3.maker.agat-predicted-
+prot.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 23,194,393
+  Number of sequences in database:  54,936
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
